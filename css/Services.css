@@ -1,0 +1,254 @@
+/* Start Services */
+.content-principal {
+  height: 100%;
+}
+
+.background {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50px 50px;
+  background-color: #111113;
+}
+
+.wason {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 80px 80px;
+  border-left: 60px solid #111113;
+  border-right: 60px solid #111113;
+  border-top: 30px solid #111113;
+  border-bottom: 60px solid #111113;
+}
+
+.services {
+  margin-top: 40px;
+  background-color: #111113;
+}
+
+.fondoSectionHeader {
+  background-color: #232427;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-wrap {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #232427;
+  margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 5px solid #232427;
+}
+
+.icon {
+  width: 100px;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  margin: 6.8px;
+}
+
+.services img {
+  width: 150px;
+  filter: drop-shadow(8px 8px 4px rgb(0, 0, 0));
+}
+
+#tot {
+  width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.vieall {
+  font-family: 'Poiret One', cursive;
+  font-size: 1rem;
+  background: rgba(88, 87, 87, 0.329);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: -100px;
+  height: 40px;
+  border-radius: 10px;
+  z-index: 50;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#vieall {
+  margin: 10px;
+}
+
+#contSections {
+  background-color: #111113;
+  padding-bottom: 200px;
+  border-radius: 50px 50px;
+  margin-top: 40px;
+}
+
+.card1 {
+  background-image: url(../categorias/ramBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 590px;
+  background-position: -200px;
+}
+
+.card2 {
+  background-image: url(../categorias/ssdBackground.webp);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -300px;
+}
+
+.card3 {
+  background-image: url(../categorias/grafBackground.webp);
+  background-repeat: no-repeat;
+  background-size: 660px;
+  background-position: -200px;
+}
+
+.card4 {
+  background-image: url(../categorias/mother.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: -20px;
+}
+
+
+.card5 {
+  background-image: url(../categorias/poder.jpg);
+  background-repeat: no-repeat;
+  background-size: 370px;
+}
+
+.card6 {
+  background-image: url(../categorias/mouse.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: -150px;
+}
+
+.card7 {
+  background-image: url(../categorias/monitor.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -170px;
+}
+
+.card8 {
+  background-image: url(../categorias/enfriamiento.jpg);
+  background-repeat: no-repeat;
+  background-size: 593px;
+  background-position: -120px;
+}
+
+.card9 {
+  background-image: url(../categorias/case.jpg);
+  background-repeat: no-repeat;
+  background-size: 370px;
+  background-position: -5px;
+}
+
+.card10 {
+  background-image: url(../categorias/headset.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: -65px;
+}
+
+.card11 {
+  background-image: url(../categorias/webcam.jpg);
+  background-repeat: no-repeat;
+  background-size: 555px;
+  background-position: -70px;
+}
+
+.card12 {
+  background-image: url(../categorias/micro.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: -50px;
+}
+
+.card13 {
+  background-image: url(../categorias/cpu.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -175px;
+}
+
+.card14 {
+  background-image: url(../categorias/red.jpg);
+  background-repeat: no-repeat;
+  background-size: 560px;
+  background-position: -140px;
+}
+
+.card15 {
+  background-image: url(../categorias/parlante.jpg);
+  background-repeat: no-repeat;
+  background-size: 560px;
+  background-position: -100px;
+}
+
+#fondin1 {
+  background-image: url(../categorias/ssdBackground.webp);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -300px;
+}
+
+#fondin2 {
+  background-image: url(../categorias/grafBackground.webp);
+  background-repeat: no-repeat;
+  background-size: 660px;
+  background-position: -200px;
+}
+
+#fondin3 {
+  background-image: url(../categorias/mother.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: -20px;
+}
+
+
+#fondin4 {
+  background-image: url(../categorias/poder.jpg);
+  background-repeat: no-repeat;
+  background-size: 370px;
+}
+
+#fondin5 {
+  background-image: url(../categorias/cpu.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -175px;
+}
+/* End Services */

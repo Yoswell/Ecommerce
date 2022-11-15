@@ -1,0 +1,241 @@
+  /* Start secciones */
+  #memoriasRAM {
+    display: none;
+  }
+
+  #memoriaSSD {
+    display: none;
+  }
+
+  #TarjetaGrafica {
+    display: none;
+  }
+  
+  #TarjetaMadre{
+    display: none;
+  }
+
+  #FuentePoder {
+    display: none;
+  }
+
+  #TecladoMouse {
+    display: none;
+  }
+
+  #Monitores {
+    display: none;
+  }
+
+  #Cooling {
+    display: none;
+  }
+
+  #Cases {
+    display: none;
+  }
+
+  #Headset {
+    display: none;
+  }
+
+  #WebCam {
+    display: none;
+  }
+
+  #Microphono {
+    display: none;
+  }
+
+  #Combo {
+    display: none;
+  }
+
+  #Redes {
+    display: none;
+  }
+
+  #Parlantes {
+    display: none;
+  }
+
+  .backRam {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backSsd {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backGraf {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backMother {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backPoder {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backTeclaMouse {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backMoni {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backCooling {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backCase {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backHead {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backWebcam {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backMicro {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backCombo {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backRed {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+
+  .backParlante {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    border: 3px solid #111113;
+  }
+  /* End secciones */

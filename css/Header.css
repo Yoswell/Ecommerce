@@ -1,0 +1,113 @@
+/* Start Header */
+  header {
+    width: 100%;
+    height: 3rem;
+    background-color: #111113;
+  }
+  
+  #nav {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #111113;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 30px 30px;
+  }
+  
+  #nav .container {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+  }
+
+  .content-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #5bd55c;
+    border-radius: 30px;
+    width: 100px;
+    height: 45px;
+  }
+
+  .tienda {
+    padding-left: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    margin-top: -6px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: -5px;
+    width: 70px;
+    padding-left: 35px;
+    padding-right: 20px;
+    color: #111113;
+  }
+
+  .busqueda {
+    display: flex;
+  }
+
+  .busqueda input {
+    font-family: 'Poiret One', cursive;
+    font-weight: 1000;
+    font-size: 1rem;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px 0 0 30px;
+    padding-left: 20px;
+    border: none;
+    user-select: none;
+    background-color: #232427;
+    outline: none;
+    color: #7c7c7e;
+  }
+
+  .busqueda i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 0 30px 30px 0;
+    border-left: 3px solid #111113;
+    color: #5bd55c;
+    background-color: #232427;
+  }
+
+  .links ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .links a {
+    display: inline-block;
+    padding: 0 1rem;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .links a:hover {
+    display: inline-block;
+    transition: all 0.3s;
+    color: rgb(93, 165, 26);
+  }
+
+  .menu-cart {
+    border: none;
+    background-color: #5bd55c;
+    width: 100px;
+    height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  /* End Header */

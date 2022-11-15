@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+:root {
+  --light-one: #fff;
+  --light-thoro: #232427;
+  --verdin: #00ffd1;
+}
+
+/* Genral Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  background: #111113;
+}
+
+.container {
+  z-index: 5;
+  padding: 0 3.9rem;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-top: 20px;
+  height: 100px;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+  font-weight: 1000;
+  font-family: 'Poiret One', cursive;
+  color: #ffffff;
+}
+
+.title-sm {
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.title-sms {
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: 1000;
+  font-size: 1rem;
+}
+/* End Genral Styles */
+
+.container-menu {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 20px;
+  transition: all 500ms ease;
+  opacity: 1;
+  transform: translateX(-200%);
+}
+
+#btn-menu:checked ~ .container-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cont-menu {
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  background: #232427;
+  border-right: 3px solid #111113;
+  height: 100vh;
+  transform: translateX(0%);
+}
+
+.cont-menu nav a {
+  display: block;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 20px;
+  width: 50%;
+  color: #ffffff;
+  background: #111113;
+}
+
+.cont-backMenu {
+  padding-bottom: 20px;
+}
+
+#backMenu {
+  position: relative;
+  top: -5px;
+  left: 75%;
+  width: 110px;
+  height: 50px;
+  border: 5px solid #232427;
+  border-radius: 50px;
+  background-color: #5bd55c;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+/*Fin de Menù lateral*/
