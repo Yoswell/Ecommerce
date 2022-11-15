@@ -81,3 +81,55 @@
     border-top: 65px solid #111113;;
   }
 }
+
+@media (min-width: 360px) { 
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .cont-nav li {
+    display: none;
+  }
+
+  .services img {
+    width: 100px;
+  }
+
+  .card-wrap {
+    width: 300px;
+  }
+
+  .container .fondoSectionHeader {
+    width: 300px;
+    margin-left: -32px;
+  }
+  
+  .cont-nav .component { 
+    display: none;
+  }
+
+  nav .busqueda {
+    display: none;
+  }
+
+  .background {
+    margin-top: 25px;
+  }
+
+  #backMenu {
+    margin-top: -5px;
+    margin-left: -30px;
+  }
+
+  .footer .grid-4 {
+    flex-wrap: wrap;
+  }
+
+  .followme {
+    padding-top: 20px;
+  }
+
+  .social-media {
+    padding-top: 20px;
+  }
+}
